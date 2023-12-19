@@ -29,7 +29,7 @@ export default function Home() {
         <Image
           src={pizza}
           fill
-          quality={70}
+          quality={40}
           className="header-img"
           alt="marmoled background"
           loading="eager"
@@ -91,7 +91,7 @@ export default function Home() {
           src={pizza2}
           fill
           sizes="100vw"
-          quality={60}
+          quality={40}
           className="interlude-img"
           alt="puerto banus image"
           placeholder="blur"
@@ -102,7 +102,7 @@ export default function Home() {
               src={madera}
               fill
               sizes="100vw"
-              quality={60}
+              quality={40}
               className="interlude-img"
               alt="puerto banus image"
               placeholder="blur"
@@ -124,7 +124,7 @@ export default function Home() {
         <Image
           src={masa}
           fill
-          quality={60}
+          quality={40}
           className="interlude2-img"
           alt="man knead dough"
           placeholder="blur"
