@@ -15,7 +15,11 @@ export default function RootLayout({ children }) {
           name="description"
           content="The best restaurant in Puerto Banus and the only with terrace"
         ></meta>
-        <meta name="theme-color" content="red"></meta>
+        <meta name="theme-color" content="white"></meta>
+        <meta property="og:image" content="https://res.cloudinary.com/dsbp8pqdb/image/upload/v1702989294/dapaoloimgog_wwry5w.png" />
+      <meta property="og:title" content="Da Paolo Restaurante en Puerto Banús" />
+      <meta property="og:description" content="Descubre la experiencia culinaria única de Da Paolo en Puerto Banús." />
+      <meta property="og:url" content="https://nextjs-restaurant-dapaolo.vercel.app/" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
