@@ -29,7 +29,7 @@ export default function Location() {
           src={pizza}
           layout="fill"
           objectFit="cover"
-          quality={50}
+          quality={40}
           className="header-img-l"
           alt="marmoled background"
           loading="eager"
@@ -104,7 +104,7 @@ export default function Location() {
           src={masa}
           layout="fill"
           objectFit="cover"
-          quality={70}
+          quality={20}
           className="interlude2-img"
           alt="man knead dough"
           placeholder="blur"

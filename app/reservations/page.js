@@ -29,7 +29,7 @@ export default function Reservations() {
           src={pizza}
           layout="fill"
           objectFit="cover"
-          quality={50}
+          quality={40}
           className="header-img-l"
           alt="marmoled background"
           loading="eager"
@@ -55,7 +55,7 @@ export default function Reservations() {
               <Image
                 src={phone}
                 fill
-                quality={60}
+                quality={40}
                 className="card1 mx-auto"
                 alt="puerto banus image"
                 placeholder="blur"
@@ -99,7 +99,7 @@ export default function Reservations() {
           src={masa}
           layout="fill"
           objectFit="cover"
-          quality={60}
+          quality={20}
           className="interlude2-img"
           alt="man knead dough"
           placeholder="blur"

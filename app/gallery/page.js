@@ -18,7 +18,7 @@ export default function Gallery() {
           src={pizza}
           layout="fill"
           objectFit="cover"
-          quality={50}
+          quality={40}
           className="header-img-l"
           alt="marmoled background"
           loading="eager"
@@ -46,7 +46,7 @@ export default function Gallery() {
         <Image
           src={masa}
           fill
-          quality={60}
+          quality={20}
           className="img-m-2"
           alt="man knead dough"
           placeholder="blur"

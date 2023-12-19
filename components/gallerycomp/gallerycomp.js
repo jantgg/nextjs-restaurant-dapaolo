@@ -86,7 +86,7 @@ const Gallerycomp = () => {
               alt="Imagen"
               fill
               className="main-img"
-              quality={70}
+              quality={60}
               placeholder="blur"
             />
           </div>
@@ -121,7 +121,7 @@ const Gallerycomp = () => {
               alt="Imagen"
               fill
               className="main-img"
-              quality={70}
+              quality={60}
             />
           </div>
           <div className="all-img-container myrow col-12">
@@ -131,7 +131,7 @@ const Gallerycomp = () => {
                 src={src}
                 alt={`Imagen ${index}`}
                 className="col-4 col-sm-2 col-md-2 img mx-2 my-2"
-                quality={70}
+                quality={40}
                 onClick={() => handleImageClick(src)} // Manejar el clic en la imagen
               />
             ))}
