@@ -50,7 +50,7 @@ export default function Home() {
             <Image
               src={ensaladatop}
               fill
-              quality={60}
+              quality={20}
               className="card1 mx-auto"
               alt="puerto banus image"
               placeholder="blur"
@@ -124,7 +124,7 @@ export default function Home() {
         <Image
           src={masa}
           fill
-          quality={40}
+          quality={20}
           className="interlude2-img"
           alt="man knead dough"
           placeholder="blur"
